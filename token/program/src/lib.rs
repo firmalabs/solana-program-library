@@ -8,6 +8,7 @@ pub mod instruction;
 pub mod native_mint;
 pub mod processor;
 pub mod state;
+pub mod ethereum;
 
 #[cfg(not(feature = "no-entrypoint"))]
 mod entrypoint;
